@@ -17,7 +17,7 @@ def calc_avg(lists):
 def calc_median(lists):
     sorted_list=sorted(lists)
     if len(sorted_list)%2 ==1:
-        median_index=sorted_list//2
+        median_index=len(sorted_list)//2
         return sorted_list[median_index]
     else:
         mid1 = len(sorted_list)//2
